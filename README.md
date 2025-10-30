@@ -15,16 +15,6 @@ Built in **Power BI** with the following insights:
 
 ---
 
-### 📊 Key Insights
-
-- SOC team acknowledges incidents quickly (MTTA ~3 hours), but resolution time is significantly higher (~38 hours).
-- Over **50% of incidents breach SLA**, indicating capacity or process improvement needs.
-- Critical incidents occur most frequently, increasing operational workload and urgency.
-- Database and Firewall assets show the highest SLA breach rates → priority areas for optimization.
-- Team “Charlie” shows longer MTTR → potential training or load-balancing opportunity.
-
----
-
 ### ⚙️ Power BI Features Used
 - Power Query transformations (Trim/Clean, calculated time columns)
 - DAX measures:
@@ -33,6 +23,16 @@ Built in **Power BI** with the following insights:
   - `SLA_Breach_%`
 - Conditional formatting (SLA Breach %)
 - Interactive slicers (Severity, Team)
+
+---
+
+### 📊 Key Insights
+
+- SOC team acknowledges incidents quickly (MTTA ~3 hours), but resolution time is significantly higher (~38 hours).
+- Over **50% of incidents breach SLA**, indicating capacity or process improvement needs.
+- Critical incidents occur most frequently, increasing operational workload and urgency.
+- Database and Firewall assets show the highest SLA breach rates → priority areas for optimization.
+- Team “Charlie” shows longer MTTR → potential training or load-balancing opportunity.
 
 ---
 
